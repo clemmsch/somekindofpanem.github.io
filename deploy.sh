@@ -11,6 +11,10 @@ yarn build
 
 cd dist
 
+git config --global user.email "panemlp@gmx.net"
+
+git config  --global user.anem "somekindofpanem"
+
 git init
 
 git add -A
