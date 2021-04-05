@@ -5,7 +5,7 @@
 set -e
 
 # build
-yarn run build
+npm run build
 
 # navigate to output
 
