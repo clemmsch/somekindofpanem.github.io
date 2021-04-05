@@ -1,7 +1,7 @@
 name: Deploying to GitHub Pages
 
 runs-on: ubuntu-latest
-on: [push]
+on: [push, pull_request]
   branches:
     - main
 jobs:
