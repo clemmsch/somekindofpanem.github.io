@@ -1,14 +1,11 @@
 name: Deploying to GitHub Pages
 
 runs-on: ubuntu-latest
-
 on: [push]
   branches:
     - main
-
 jobs:
   build:
-    name: Deploying...
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
