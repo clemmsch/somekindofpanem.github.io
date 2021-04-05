@@ -1,5 +1,4 @@
 name: Deploying to GitHub Pages
-uses: ubuntu-latest
 on:
   push:
     branches:
