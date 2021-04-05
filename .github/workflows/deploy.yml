@@ -9,7 +9,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Deploying...
+      - name: Setup Node
       - uses: actions/setup-node@master
+      - name: Deploying...
       - run: npm install
       - run: npm run deploy
